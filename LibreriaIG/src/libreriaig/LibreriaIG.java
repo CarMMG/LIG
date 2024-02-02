@@ -41,7 +41,7 @@ public class LibreriaIG extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Lógica para el botón Consultar
-                JOptionPane.showMessageDialog(null, "Consultar libros");
+                Consultar.mostrarVentanaConsulta();
             }
         });
 
