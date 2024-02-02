@@ -1,1 +1,2 @@
 creacion de una interfaz grafica para una libreria
+1.- primer punto finalizado agregar
