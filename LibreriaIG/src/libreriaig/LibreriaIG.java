@@ -4,11 +4,11 @@
  */
 package libreriaig;
 
-
 /**
  *
  * @author moyme
  */
+import libreriaig.Vender;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -49,7 +49,7 @@ public class LibreriaIG extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Lógica para el botón Vender
-                JOptionPane.showMessageDialog(null, "Vender libro");
+                Vender.main(new String[]{});
             }
         });
 
